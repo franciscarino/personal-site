@@ -1,0 +1,157 @@
+/*
+color palette
+#1A2238
+#9DAAF2
+#FF6A3D
+#FFFFFF
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/francis-white-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo {
+  color: #FF6A3D;
+  font-size: 20px;
+}
+
+.hero a{
+    color: #1A2238;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: #1a2238;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ff6a3d;
+  transform: scale(1.1);
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+  justify-content: center;
+  float: left;
+  padding-left: 8%;
+}
+
+h1 {
+  color: #1a2238;
+  margin: 0px 0px;
+  font-size: 100px;
+}
+
+h3 {
+  color: #ff6a3d;
+  font-size: 40px;
+  margin: 0px 5px;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #1a2238;
+}
+
+.about img {
+  height: auto;
+  width: 430px;
+}
+
+.about-text {
+  width: 430px;
+}
+
+.about-text h2 {
+  color: #ff6a3d;
+  font-size: 75px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #ffffff;
+  line-height: 35px;
+  margin-bottom: 45px;
+  font-size: 20px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact h4 {
+  color: #ff6a3d;
+  font-size: 30px;
+}
+
+.contact-icons {
+  display: flex;
+}
+
+.contact-link {
+  margin: 0.5rem;
+  list-style: none;
+}
+
+.contact-icon-in {
+  width: 50px;
+  height: 50px;
+  background: url(./images/linkedin-white.png);
+  background-size: cover;
+}
+
+.contact-icon-mail {
+  width: 50px;
+  height: 50px;
+  background: url(./images/mail-white.png);
+  background-size: cover;
+}
+
+.contact-icon-in:hover {
+  background: url(./images/linkedin-lightblue.png);
+  background-size: cover;
+}
+
+.contact-icon-mail:hover {
+  background: url(./images/mail-lightblue.png);
+  background-size: cover;
+}
